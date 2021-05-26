@@ -13,5 +13,5 @@
     "typeRoots": ["@types", "./node_modules/@types"],
     "outDir": "dist"
   },
-  "include": ["**/*.ts"]
+  "include": ["src/**/*"]
 }
