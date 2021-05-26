@@ -8,5 +8,5 @@ This is awesome online dalmuti game. Play dalmuti online with your friends.
 - [x] typescript setup
 - [x] eslint, prettier setup
 - [x] jest setup
-- [] logic (making room, chatting) with test
-- [] paint game
+- [ ] logic (making room, chatting) with test
+- [ ] paint game
