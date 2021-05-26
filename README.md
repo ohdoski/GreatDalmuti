@@ -5,7 +5,7 @@ This is awesome online dalmuti game. Play dalmuti online with your friends.
 
 ## TODO
 
-- [] typescript setup
-- [] eslint, prettier setup
-- [] logic (making room, chatting, )
+- [x] typescript setup
+- [x] eslint, prettier setup
+- [] logic (making room, chatting)
 - [] paint game
