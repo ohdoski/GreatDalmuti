@@ -1,5 +1,7 @@
 import { shuffle as shuffleDeck, chunk } from 'lodash'
 
+// TODO: make dealer class
+
 /**
  * @return card deck
  * ex. [1, 2, 2, 3, 3, 3 ...]
