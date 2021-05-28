@@ -10,3 +10,8 @@ This is awesome online dalmuti game. Play dalmuti online with your friends.
 - [x] jest setup
 - [ ] logic (making room, chatting) with test
 - [ ] paint game
+
+## Run project
+
+- run project: `yarn dev`
+- run project with produnction build: `yarn build && yarn start`
