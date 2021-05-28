@@ -5,10 +5,11 @@
   "main": "index.ts",
   "scripts": {
     "dev": "craco start",
+    "server": "nodemon src/server.ts --extensions \".ts,.js\"",
     "start": "serve -s build",
     "build": "craco build",
     "test": "craco test",
-    "seed": "ts-node src/seed.ts",
+    "seed": "babel-node src/dealer/seed.ts --extensions \".ts,.js\"",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
@@ -19,6 +20,9 @@
     "babel-loader": "8.1.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
     "@babel/preset-env": "^7.14.2",
     "@babel/preset-typescript": "^7.13.0",
     "@emotion/babel-plugin": "^11.3.0",
@@ -28,6 +32,7 @@
     "@storybook/node-logger": "^6.2.9",
     "@storybook/preset-create-react-app": "^3.1.7",
     "@storybook/react": "^6.2.9",
+    "@types/express": "^4.17.12",
     "@types/jest": "^26.0.23",
     "@types/jest-plugin-context": "^2.9.4",
     "@types/lodash": "^4.14.170",
@@ -55,10 +60,14 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.1.9",
+    "cors": "^2.8.5",
     "craco": "^4.0.3",
+    "express": "^4.17.1",
     "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^4.1.2",
     "web-vitals": "^1.1.2"
   },
   "eslintConfig": {
