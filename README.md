@@ -11,7 +11,13 @@ This is awesome online dalmuti game. Play dalmuti online with your friends.
 - [ ] logic (making room, chatting) with test
 - [ ] paint game
 
-## Run project
+## Scripts
+
+**run project**
 
 - run project: `yarn dev`
 - run project with produnction build: `yarn build && yarn start`
+
+**run storybook**
+
+- `yarn storybook`
